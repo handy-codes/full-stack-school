@@ -1,0 +1,82 @@
+.load{
+    animation: slide 2s;
+}
+
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 40s infinite;
+}
+
+.content{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);  
+}
+
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    letter-spacing: 5px;   
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    
+}
+
+.principal h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 52px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+}
+
+.principal p{
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@keyframes slide {
+    0%{
+        background-image: url('https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-6/273216848_1120253618749150_973626591318664379_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFwnGfsljYIXc2d-Yjcd1z5HQiKbxUNo4UdCIpvFQ2jhX9KrVhHw29U_KhuK10XOs0&_nc_ohc=8FQBr2Dd7K0Q7kNvgFKsiMP&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&_nc_gid=A9rZ7R8bHgGP2SivY0fgz3z&oh=00_AYDcgQvFdzQEOrwWDwKy2cmb0zzsmVBGCfj4Uz9xf0UmdQ&oe=66F5FEC5');
+    }
+    20%{
+       background-image: url('https://scontent.flos3-1.fna.fbcdn.net/v/t39.30808-6/301952868_501383588656084_2377066234561400445_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeElvvPxQ7kqHd8QUCpCDLp8FVGbOCCg504VUZs4IKDnTvZ6NZuNTTJvVndTjrvg1vs&_nc_ohc=JkuPOE_iPKwQ7kNvgEp9dpu&_nc_zt=23&_nc_ht=scontent.flos3-1.fna&_nc_gid=ACF-liklzw0gdLfs3CcRJSw&oh=00_AYAl2KjPZEXngiP4icI-yYpBNOf_RLi_TdI7N_VvCrUhGA&oe=66F5F1E4'); 
+    }
+    20.01%{
+        background-image: url('https://scontent.flos2-1.fna.fbcdn.net/v/t1.6435-9/119475202_790623808378801_8972975851550047959_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEnBjCxSQTGOKWolkRHp4qRmriHHWsOY-6auIcdaw5j7vy8rtShLkxUdW0-KyYRF4g&_nc_ohc=3nqkEi_dtQIQ7kNvgHbMoR7&_nc_ht=scontent.flos2-1.fna&oh=00_AYA0-2Tj4PVcUP0Q5cX3-EAIjNSYeoJhmR5oT9GnlDXbHg&oe=6717944C');
+    }
+    40%{
+       background-image: url('https://scontent.flos3-1.fna.fbcdn.net/v/t1.6435-9/35328872_240295923411595_7536679508598849536_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH80hQFpWIMPQwoWUQmi-ai95RJGgjm_lj3lEkaCOb-WJibZRVX0xfkZeB62U-cpyY&_nc_ohc=ZvOGg_4CVakQ7kNvgF-oKEI&_nc_ht=scontent.flos3-1.fna&_nc_gid=A-R-O1cDGCpZtyAlZH4fsYi&oh=00_AYDYoD66oXrKHLfKlM7tsGxSBgRgdFQWY5mdY-aR1TjlvA&oe=6717A2FF'); 
+    }
+    40.01%{
+       background-image: url('https://scontent.flos3-1.fna.fbcdn.net/v/t1.6435-9/35301227_240294263411761_1987379705430409216_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeGmydSpj4_rew-Wj-78d1mQeAmRNGpx-gZ4CZE0anH6BsojBYliuln1-djgtQqu61A&_nc_ohc=JQa7wBo27hgQ7kNvgGVUXxI&_nc_ht=scontent.flos3-1.fna&oh=00_AYBWsWSIAQuaThqURcFrklY9_QaZG7Xu6NRynxq44mKkNQ&oe=6717AB53'); 
+    }
+    60%{
+       background-image: url('https://scontent.flos2-1.fna.fbcdn.net/v/t39.30808-6/273216940_1120253662082479_8598134113049948708_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeEnVd0EUtvIWzXPeNKZgGkuLt8pjJ6Rqdwu3ymMnpGp3OKpnEzOi4M2VaNrhZzxW-M&_nc_ohc=0dmsFgzl1QQQ7kNvgEyBGBL&_nc_zt=23&_nc_ht=scontent.flos2-1.fna&oh=00_AYDN8KpY0Er9ehQpA26PHKmaZTQ8fi1DnWPSRE6wy4Q9pg&oe=66F60B05'); 
+    }
+    60.01%{
+        background-image: url('https://media.istockphoto.com/id/1323715308/photo/african-american-girl-raising-her-hands-while-sitting-on-her-desk-in-the-class-at-school.jpg?b=1&s=612x612&w=0&k=20&c=UJlSwRdF3q9YP8SxQEpzhOEhaEAoCxqT_nP3McbpvcQ=');
+    }
+    80%{
+        background-image: url('https://images.pexels.com/photos/8972641/pexels-photo-8972641.jpeg?auto=compress&cs=tinysrgb&w=600');
+    }
+    80.01%{
+       background-image: url('https://images.pexels.com/photos/5905702/pexels-photo-5905702.jpeg?auto=compress&cs=tinysrgb&w=600'); 
+    }
+    100%{
+        background-image: url('https://peculiarschools.com/wp-content/uploads/2019/10/WhatsApp-Image-2019-08-02-at-8.18.21-AM-1-1024x683.jpeg'); 
+    }
+
+}
+
+
